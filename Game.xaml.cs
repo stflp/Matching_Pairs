@@ -21,7 +21,7 @@ namespace TEMA_1_PAIRS
     /// </summary>
     public partial class Game : Window
     {
-        private string path = System.IO.Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Images");
+        private string path = System.IO.Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "../../Images");
 
         private List<Button> buttons = new List<Button>();
         private Button firstButton = null;

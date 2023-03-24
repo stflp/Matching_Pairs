@@ -21,7 +21,7 @@ namespace TEMA_1_PAIRS
     /// </summary>
     public partial class registerUser : Window
     {
-        private static string path = System.IO.Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "pfp");
+        private static string path = System.IO.Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "../../pfp");
         private string[] images = Directory.GetFiles(path, "*.jpg");
         private int pfpIndex = 0;
         private string pfp;
