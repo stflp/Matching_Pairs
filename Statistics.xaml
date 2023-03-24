@@ -1,0 +1,14 @@
+﻿<Window x:Class="TEMA_1_PAIRS.Statistics"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TEMA_1_PAIRS"
+        mc:Ignorable="d"
+        Title="Statistics" Height="300" Width="400">
+    <Grid>
+        <TextBlock Name="myGames" HorizontalAlignment="Right" VerticalAlignment="Top" Margin="100" FontSize="20"></TextBlock>
+        <TextBlock Name="myWins" HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="100" FontSize="20"></TextBlock>
+        <Image Name="usrImage" HorizontalAlignment="Left" VerticalAlignment="Top" Height="100" Width="100" Margin="50, 80"></Image>
+    </Grid>
+</Window>

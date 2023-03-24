@@ -1,0 +1,17 @@
+﻿<Window x:Class="TEMA_1_PAIRS.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TEMA_1_PAIRS"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button Content="New User" Width="180" Height="50" Margin="90, 50" HorizontalAlignment="Left" VerticalAlignment="Bottom" Click="newUser_Click"/>
+        <Button Content="Delete User" Width="180" Height="50" Margin="90, 50" HorizontalAlignment="Center" VerticalAlignment="Bottom" Click="deleteUser_Click"/>
+        <Button Content="Play" Width="180" Height="50" Margin="90, 50" HorizontalAlignment="Right" VerticalAlignment="Bottom" Click="play_Click"/>
+
+        <ListBox Name="userList" Width="217" Height="259" Margin="90,40,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" SelectionChanged="user_select"></ListBox>
+        <Image Name="userImage" Width="150" Height="150" Margin="100, 67" HorizontalAlignment="Right" VerticalAlignment="Top"></Image>
+    </Grid>
+</Window>
