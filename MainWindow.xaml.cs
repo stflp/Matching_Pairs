@@ -27,6 +27,8 @@ namespace TEMA_1_PAIRS
         public MainWindow()
         {
             InitializeComponent();
+            if (!File.Exists("database.txt")
+                File.Create("database.txt");
             showUsersList();
         }
 
